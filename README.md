@@ -9,7 +9,7 @@ It is an excellent **academic minor/major project** built using **HTML, CSS, and
 
 ## 🚀 Live Demo
 
-👉 Add your GitHub Pages / Netlify link here: `https://your-username.github.io/intelligent-e-learning-platform/`
+👉 Add your GitHub Pages / Netlify link here: `https://github.com/Umangi-webdev/intelligent-E-learning-platform`
 
 ---
 
@@ -64,23 +64,9 @@ This project improves **student productivity, faculty coordination, and smart cl
 ## ⚡ Installation & Usage
 
 Clone this repository and run locally:
-
-```bash
-git clone https://github.com/your-username/intelligent-e-learning-platform.git
-cd intelligent-e-learning-platform
 ```
+https://github.com/Umangi-webdev/intelligent-E-learning-platform
 
-Then open `index.html` in your browser.
-
----
-
-## 📸 Screenshot
-
-Add your project dashboard screenshot here:
-
-```bash
-images/dashboard-preview.png
-```
 
 ---
 
@@ -111,8 +97,8 @@ This project is open-source and available under the **MIT License**.
 
 ## 👨‍💻 Author
 
-**Your Name**
-GitHub: `https://github.com/your-username`
+**Patel Umangi**
+GitHub: `https://github.com/Umangi-webdev/intelligent-E-learning-platform`
 
 ---
 
