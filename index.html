@@ -1,0 +1,72 @@
+       <!-- ========================= index.html ========================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intelligent E-Learning Platform</title>
+       <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📘 Intelligent E-Learning Platform</h1>
+    <p>Manage schedules, quizzes, attendance, study materials, and video lectures</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#schedule">Class Schedule</a></li>
+      <li><a href="#quiz">Quizzes</a></li>
+      <li><a href="#faculty">Faculty</a></li>
+      <li><a href="#materials">Study Material</a></li>
+      <li><a href="#attendance">Attendance</a></li>
+      <li><a href="#lectures">Video Lectures</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="schedule" class="card">
+      <h2>📅 Class Schedule</h2>
+      <p>Monday - Web Development (10:00 AM)</p>
+       <p>Tuesday - AI Basics (11:30 AM)</p>
+    </section>
+
+    <section id="quiz" class="card">
+      <h2>📝 Quiz Section</h2>
+      <button onclick="showQuizMessage()">Start Quiz</button>
+      <p id="quizMessage"></p>
+    </section>
+
+    <section id="faculty" class="card">
+      <h2>👨‍🏫 Faculty Data</h2>
+      <p>Prof. Mehta - Artificial Intelligence</p>
+      <p>Prof. Shah - Data Structures</p>
+    </section>
+
+    <section id="materials" class="card">
+      <h2>📚 Study Materials</h2>
+      <ul>
+        <li>HTML Notes PDF</li>
+        <li>CSS Tutorial Slides</li>
+        <li>JavaScript Practice Questions</li>
+     </ul>
+    </section>
+
+    <section id="attendance" class="card">
+      <h2>✅ Student Attendance</h2>
+      <button onclick="markAttendance()">Mark Present</button>
+      <p id="attendanceStatus">Status: Not Marked</p>
+    </section>
+
+    <section id="lectures" class="card">
+      <h2>🎥 Video Lectures</h2>
+      <video controls width="100%">
+        <source src="sample-video.mp4" type="video/mp4" />
+        Your browser does not support video.
+      </video>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
